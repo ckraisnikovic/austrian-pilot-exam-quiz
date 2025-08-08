@@ -1,0 +1,101 @@
+/* General page style */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Quiz card */
+.quiz-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Progress text */
+.progress {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 12px;
+  text-align: right;
+}
+
+/* Question text */
+.question {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+/* Options container */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Option buttons */
+.option {
+  padding: 12px;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.option:hover {
+  background: #eef5ff;
+  border-color: #007BFF;
+}
+
+.option.selected {
+  background: #007BFF;
+  color: white;
+  border-color: #007BFF;
+}
+
+/* Next button */
+#next-btn {
+  margin-top: 40px;
+  padding: 12px;
+  width: 100%;
+  font-size: 1rem;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#next-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+#next-btn:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+/* Correct / Wrong styles after selection */
+.option.correct {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.option.wrong {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+

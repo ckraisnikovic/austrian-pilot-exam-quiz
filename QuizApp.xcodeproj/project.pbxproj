@@ -6,10 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		1BCEA2222E464EF40015F66E /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		1BCEA2232E464F0E0015F66E /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		1BCEA2242E464F1D0015F66E /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		1BCEA2252E464F610015F66E /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		1BCEA2262E464F7C0015F66E /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		1BCEA2172E464EDC0015F66E = {
 			isa = PBXGroup;
 			children = (
+				1BCEA2262E464F7C0015F66E /* readme.md */,
+				1BCEA2252E464F610015F66E /* questions.json */,
+				1BCEA2242E464F1D0015F66E /* script.js */,
+				1BCEA2232E464F0E0015F66E /* style.css */,
+				1BCEA2222E464EF40015F66E /* index.html */,
 			);
 			sourceTree = "<group>";
 		};
